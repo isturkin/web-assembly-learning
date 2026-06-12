@@ -1,0 +1,10 @@
+[package]
+name = "web-assembly-learning"
+version = "0.1.0"
+edition = "2024"
+
+[lib]  # Указывает, что это библиотека
+crate-type = ["cdylib"]  # rlib для Rust, cdylib для C/WASM
+
+[dependencies]
+wasm-bindgen = "0.2.73"
